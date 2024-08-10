@@ -37,3 +37,50 @@ body {
 .link-header a {
     text-decoration: none;
 }
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin-top: -60px;
+}
+
+.main img {
+    width: 593px;
+    height: 498px;
+}
+
+.main-home {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.main-home h1 {
+    width: 427px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+}
+
+.main-home p {
+    width: 445px;
+    height: 112px;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #7D7987;
+}
+
+.main-home button {
+    width: 200px;
+    height: 56px;
+    background-color: #458FF6;
+    color: white;
+    border: none;
+    border-radius: 55px;
+}
