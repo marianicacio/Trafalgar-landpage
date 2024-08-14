@@ -271,6 +271,18 @@ nav a {
     border-radius: 50px;
 }
 
+.quadrado {
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 320px;
+}
+
+.quadrado-2 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 1400px;
+}
+
 .feedback-align {
     display: flex;
     justify-content: center;
@@ -290,11 +302,20 @@ nav a {
     border-radius: 24px;
 }
 
-.feedback p {
-    width: 420px;
+.feedback h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
 }
 
-.feedback h1 {}
+.feedback p {
+    width: 420px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
 
 .rectangle-white {
     width: 56px;
@@ -305,9 +326,43 @@ nav a {
 
 .feedback-section {
     display: flex;
+    padding-top: 50px;
+    margin-left: 20px;
+    gap: 10px;
 }
 
 .align-feedback {
     display: flex;
+    gap: 0px;
+    justify-content: center;
     flex-direction: column;
+}
+
+.align-feedback h2 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+
+.align-feedback p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: #FFFFFFD9;
+    margin-top: -30px;
+}
+
+.arrows {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.arrows button {
+    background-color: transparent;
+    border: none;
 }
