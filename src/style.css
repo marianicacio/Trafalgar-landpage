@@ -383,3 +383,66 @@ nav a {
     background-image: url(/src/img/elements-services.png);
     background-repeat: no-repeat;
 }
+
+.check-cards p {
+    width: 266px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #7D7987;
+}
+
+.check-cards h1 {
+    width: 251px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+
+.check-cards button {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #4089ED;
+    border: none;
+    background-color: transparent;
+}
+
+.card-1 {
+    width: 350px;
+    height: 512px;
+    background-color: #E5E9F666;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+    border-radius: 20px;
+}
+
+.check-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.check-button button {
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 55px;
+}
+
+.check-button :hover {
+    width: 200px;
+    height: 60px;
+    background-color: #d3e6ff;
+    transition: 1s;
+    border-radius: 50px;
+}
