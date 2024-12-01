@@ -506,6 +506,7 @@ footer {
 }
 
 @media (max-width: 820px) {
+
     .header {
         align-items: center;
         justify-content: center;
@@ -523,5 +524,14 @@ footer {
         text-align: center;
         gap: 30px;
         margin-top: -60px;
+    }
+
+    .services p {
+        width: 552px;
+        height: 60px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
     }
 }
