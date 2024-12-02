@@ -534,4 +534,9 @@ footer {
         line-height: 30px;
         text-align: center;
     }
+
+    .main img {
+        width: 393px;
+        height: 298px;
+    }
 }
