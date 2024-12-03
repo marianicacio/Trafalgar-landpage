@@ -542,16 +542,28 @@ footer {
         color: #7D7987;
     }
 
+    main img {
+
+    }
+
+    .services h1 {
+        font-size: 26px;
+    }
+    
     .services p {
-        width: 452px;
-        font-size: 16px;
+        width: 382px;
+        font-size: 14px;
         font-weight: 300;
         line-height: 30px;
         text-align: center;
     }
 
-    main img {
-
+    .align-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 80px;
     }
-
 }
