@@ -553,17 +553,37 @@ footer {
     .services p {
         width: 382px;
         font-size: 14px;
-        font-weight: 300;
-        line-height: 30px;
-        text-align: center;
     }
 
     .align-cards {
-        display: flex;
         flex-direction: column;
         gap: 40px;
-        justify-content: space-around;
+    }
+
+    .cards-button {
+        margin-top: 30px;
+    }
+
+    .leading {
+        flex-direction: column;
+        display: flex;
         align-items: center;
-        margin-top: 80px;
+        justify-content: center;
+        gap: 37px;
+    }
+
+    .leading img {
+        width: 350px;
+        height: auto;
+    }
+    
+    .leading h1 {
+        width: 327px;
+        font-size: 26px;
+    }
+    
+    .leading p {
+        width: 382px;
+        font-size: 14px;
     }
 }
