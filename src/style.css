@@ -519,16 +519,31 @@ footer {
     .main {
         display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        gap: 30px;
-        margin-top: -60px;
+      
+    }
+    
+    .main img {
+        width: 350px;
+        height: auto;
+    }
+    
+    .main-home h1 {
+        width: 327px;
+        font-size: 38px;
+    }
+    
+    .main-home p {
+        width: 345px;
+        height: 112px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 32px;
+        text-align: left;
+        color: #7D7987;
     }
 
     .services p {
-        width: 552px;
-        height: 60px;
+        width: 452px;
         font-size: 16px;
         font-weight: 300;
         line-height: 30px;
@@ -536,11 +551,7 @@ footer {
     }
 
     main img {
-        
+
     }
 
-    .main img {
-        width: 393px;
-        height: 298px;
-    }
 }
