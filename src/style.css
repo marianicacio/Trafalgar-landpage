@@ -595,16 +595,6 @@ footer {
     .element {
         display: none;
     }
-
-
-    .download {
-        flex-direction: column-reverse;
-    }
-
-    .download img {
-        width: 350px;
-        height: auto;
-    }
     
     .download h1 {
         width: 254px;
@@ -621,6 +611,7 @@ footer {
         line-height: 30px;
         text-align: left;
         color: #7D7987;
+    }
 
     #img {
         width: 350px;
