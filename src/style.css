@@ -233,6 +233,11 @@ nav a {
     gap: 37px;
 }
 
+.download-info {
+    display: flex;
+    flex-direction: column;
+}
+
 .download h1 {
     width: 254px;
     font-size: 36px;
@@ -591,6 +596,7 @@ footer {
         display: none;
     }
 
+
     .download {
         flex-direction: column-reverse;
     }
@@ -615,5 +621,26 @@ footer {
         line-height: 30px;
         text-align: left;
         color: #7D7987;
+
+    #img {
+        width: 350px;
+        height: auto;
+    }
+
+    .download {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    
+    .download h1 {
+        width: 327px;
+        font-size: 26px;
+    }
+    
+    .download p {
+        width: 282px;
+        font-size: 14px;
+
     }
 }
