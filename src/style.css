@@ -628,8 +628,8 @@ footer {
         color: white;
         align-items: center;
         background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
-        width: 520px;
-        height: 825px;
+        width: 320px;
+        height: 925px;
         border-radius: 24px;
     }
 
@@ -638,18 +638,6 @@ footer {
         justify-content: center;
         align-items: center;
         margin-top: 200px;
-    }
-    
-    .feedback {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        color: white;
-        align-items: center;
-        background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
-        width: 620px;
-        height: 425px;
-        border-radius: 24px;
     }
     
     .feedback h1 {
