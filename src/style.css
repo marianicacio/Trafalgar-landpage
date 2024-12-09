@@ -635,12 +635,7 @@ footer {
         width: 220px;
     }
 
-    
-.arrows {
-    display: flex;
-    gap: 0px;
-    justify-content: center;
-    align-items: center;
-
-}
+    .check-section h1{
+       font-size: 5px;
+    }
 }
