@@ -638,4 +638,8 @@ footer {
     .check-section h1{
        font-size: 5px;
     }
+
+    .check-cards {
+        flex-direction: column;
+    }
 }
