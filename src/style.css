@@ -642,4 +642,12 @@ footer {
     .check-cards {
         flex-direction: column;
     }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .column {
+        display: none;
+    }
 }
