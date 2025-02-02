@@ -1,1 +1,1 @@
-Site de treino de html e css
+Site de treino de html, css e mobile
